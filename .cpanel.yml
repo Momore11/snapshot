@@ -1,7 +1,0 @@
----
-deployment:
-  tasks:
-    - /bin/cp -Rf * $HOME/public_html
-    - /usr/local/bin/php $HOME/public_html/composer install --no-dev
-    - chmod 755 $HOME/public_html/storage
-    - chmod 755 $HOME/public_html/bootstrap/cache
